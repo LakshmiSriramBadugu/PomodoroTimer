@@ -14,16 +14,18 @@ function formattedTime() {
 }
 
 startBtn.onclick = function() {
-    interval = setInterval(() => {
-        timerLeft--;
-        formattedTime();
-        if (timerLeft === 0) {
-            clearInterval(interval);
-            alert("Times Up!!!");
-            timerLeft = 1500;
+    if(!interval){
+        interval = setInterval(() => {
+            timerLeft--;
             formattedTime();
-        }
-    }, 1000);
+            if (timerLeft === 0) {
+                clearInterval(interval);
+                alert("Times Up!!!");
+                timerLeft = 1500;
+                formattedTime();
+            }
+        }, 1000);
+    }
 };
 
 stopBtn.onclick = function() {
