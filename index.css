@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #278eba;
+}
+
+.head {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.timer {
+    font-family: "Roboto";
+    font-size: xx-large;
+    font-weight: bold;
+    color: #1d1e38;
+}
+
+.start-btn {
+    background-color: #69b36d;
+    border: 0;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.stop-btn {
+    background-color: red;
+    border: 0;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.reset-btn {
+    background-color: #bab43d;
+    border: 0;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    font-size: x-large;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
